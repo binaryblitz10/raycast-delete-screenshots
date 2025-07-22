@@ -56,9 +56,7 @@ export default async function main() {
     if (!confirm) return;
   }
 
-  const fileList = matchingFiles
-    .map(f => `POSIX file "${f.replace(/"/g, '\\"')}"`)
-    .join(", ");
+  const fileList = matchingFiles.map((f) => `POSIX file "${f.replace(/"/g, '\\"')}"`).join(", ");
 
   execSync(`osascript -e 'tell application "Finder" to delete {${fileList}}'`);
   const deletedCount = matchingFiles.length;

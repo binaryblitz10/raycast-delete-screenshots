@@ -3,7 +3,6 @@
 A simple but powerful Raycast extension to help you clean up screenshots from your system quickly and safely.  
 Files are moved to the Trash (not permanently deleted), so you can recover them if needed.
 
-
 ![Delete Screenshots Extension](metadata/Delete-Screenshots-1.jpg)
 
 ---
@@ -22,12 +21,12 @@ Files are moved to the Trash (not permanently deleted), so you can recover them 
 
 You can customize the behavior in Raycast’s "Configure Command" menu:
 
-| Setting             | Description                                                                 | Default                |
-|---------------------|-----------------------------------------------------------------------------|------------------------|
-| `Folders`           | Comma-separated folder paths to search                                      | `~/Desktop`            |
-| `Keywords`          | Words the filename should contain (case-insensitive, comma-separated)       | `Screenshot`           |
-| `Extensions`        | File extensions to include (comma-separated, without `.`)                   | `jpg,jpeg`             |
-| `Ask Before Delete` | Whether to show a confirmation dialog before deletion                       | ✅ (Enabled)            |
+| Setting             | Description                                                           | Default      |
+| ------------------- | --------------------------------------------------------------------- | ------------ |
+| `Folders`           | Comma-separated folder paths to search                                | `~/Desktop`  |
+| `Keywords`          | Words the filename should contain (case-insensitive, comma-separated) | `Screenshot` |
+| `Extensions`        | File extensions to include (comma-separated, without `.`)             | `jpg,jpeg`   |
+| `Ask Before Delete` | Whether to show a confirmation dialog before deletion                 | ✅ (Enabled) |
 
 ---
 
